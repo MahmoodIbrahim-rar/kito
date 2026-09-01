@@ -90,7 +90,7 @@ nav a:hover { color: var(--yellow-accent); }
 
 .mobile-only { display: none; }
 
-/* Mobile Menu Toggle */
+/* Mobil Menü Butonu */
 .menu-toggle {
     display: none;
     flex-direction: column;
@@ -125,7 +125,7 @@ nav a:hover { color: var(--yellow-accent); }
 
 .nav-overlay.active { opacity: 1; visibility: visible; }
 
-/* Hero Section */
+/* Hero Bölümü */
 .hero {
     height: 100vh;
     background: url('https://images.unsplash.com/photo-1544025162-d76694265947?w=1600&auto=format&fit=crop') center/cover no-repeat;
@@ -179,7 +179,7 @@ nav a:hover { color: var(--yellow-accent); }
 
 .btn-white:hover { background: var(--yellow-accent); }
 
-/* Intro Cream Section */
+/* Giriş Krem Bölümü */
 .intro-section {
     background-color: var(--bg-cream);
     color: var(--text-dark);
@@ -231,7 +231,7 @@ nav a:hover { color: var(--yellow-accent); }
     color: #fff;
 }
 
-/* Gallery Strip */
+/* Fotoğraf Şeridi */
 .gallery-strip {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
@@ -253,7 +253,7 @@ nav a:hover { color: var(--yellow-accent); }
     transform: scale(1.05);
 }
 
-/* Dishes Cards Section */
+/* Yemek Kartları Bölümü */
 .dishes-section {
     padding: 110px 8%;
     background-color: var(--bg-dark);
@@ -325,7 +325,7 @@ nav a:hover { color: var(--yellow-accent); }
     font-size: 16px;
 }
 
-/* Split Section (Events) */
+/* İkiye Bölünmüş Etkinlikler Bölümü */
 .split-section {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -467,7 +467,7 @@ nav a:hover { color: var(--yellow-accent); }
     border-top: 1px solid rgba(255, 255, 255, 0.05);
 }
 
-/* Responsive Rules */
+/* Mobil / Tablet Duyarlılık Kuralları */
 @media (max-width: 1024px) {
     .dishes-grid { grid-template-columns: repeat(2, 1fr); }
     .gallery-strip { grid-template-columns: repeat(3, 1fr); height: 350px; }
